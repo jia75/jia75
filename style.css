@@ -1,6 +1,30 @@
 body {
-  text-align:center;
+  text-align:left;
   color:white;
   background-color:black;
   margin:0;
+  margin-left:30%;
+  margin-right:30%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: #aaf;
+}
+
+h1 a {
+  color: #aaa;
+}
+
+h1 {
+  color: #aaa;
+
+}
+
+h2 {
+  color: #ccc;
+}
+
+h3 {
+  color: #ddd;
 }
