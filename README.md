@@ -5,3 +5,5 @@ C is based frfr
 ***GET HACKED NOOB HAHA***
 
 ***\- O. M.***
+
+{{ wakatimeDoubleCategoryBar "💾 Languages:" wakatimeData.Languages "💼 Projects:" wakatimeData.Projects 5 }}
