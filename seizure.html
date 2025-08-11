@@ -6,11 +6,21 @@
 <title>Epilepsy Testing Suite</title>
 </head>
 <body style="margin: 0; overflow: hidden;">
+  <div id = 'hh'>
     <h1 style="text-align: center;">Epilepsy Testing Suite (Premium Edition)</h1>
-    <button onclick="document.getElementById('c').style.display='block';let audio = document.createElement('audio');audio.src = 'amenbreak.wav';
+    <input type="radio" /> I agree to the terms<br>
+    <input type="radio" /> I don't agree to the terms<br>
+    <input type="radio" /> I may or may not agree to the terms<br>
+    <input type="radio" /> I am illiterate and cannot read the form<br>
+    <input type="radio" /> None of the above<br>
+    <input type="radio" /> All of the above<br>
+    <button id="bb" onclick="document.getElementById('c').style.display='block';let audio = document.createElement('audio');audio.src = 'amenbreak.wav';
   audio.loop = true;
   audio.play();
-">I pinky promise that I know that I don't have epilepsy and that if I actually didn't fully know or like I developed epilepsy some time since I last did some kind of test for it I forfeit my rights to take any kind of action against the author of this product and by extent any organization, for profit or otherwise, that may have aided them in the process of creating said product, as I acknowledge that it will be entirely my fault that I did not get a more recent or advanced test for the condition of photosensitive epilepsy or any other conditions that may have similar symptoms to it. And I am not crossing my fingers behind my back like I'm being so fr when I am clicking this button to agree with the statement which I have definitely read in full.</button>
+  document.getElementById('bb').style.display='none';
+  document.getElementById('hh').style.display='none';
+  ">CLICK HERE TO SAY THE FOLLOWING: I pinky promise that I know that I don't have epilepsy and that if I actually didn't fully know or like I developed epilepsy some time since I last did some kind of test for it I forfeit my rights to take any kind of action against the author of this product and by extent any organization, for profit or otherwise, that may have aided them in the process of creating said product, as I acknowledge that it will be entirely my fault that I did not get a more recent or advanced test for the condition of photosensitive epilepsy or any other conditions that may have similar symptoms to it. And I am not crossing my fingers behind my back like I'm being so fr when I am clicking this button to agree with the statement which I have definitely read in full.</button>
+</div>
 <canvas id="c" style="display: none"></canvas>
 <script>
 const gl = c.getContext('webgl')
